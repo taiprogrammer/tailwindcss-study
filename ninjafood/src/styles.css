@@ -8,7 +8,7 @@
 
 .card {
     @apply bg-white rounded overflow-hidden shadow-md relative mb-2
-    hover:bg-gray-200 cursor-pointer ml-2;
+    hover:bg-gray-200 cursor-pointer ml-2 md:w-auto;
 }
 
 .badge {

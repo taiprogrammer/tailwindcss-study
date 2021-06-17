@@ -28,18 +28,28 @@
           </div>
           <ul class="ml-2">
             <li class="text-gray-700 font-bold">
-              <a href="#">
-                <span>Home</span>
+              <a href="#" class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+                <span class="ml-2">Home</span>
               </a>
             </li>
             <li>
-              <a href="#">
-                <span>About</span>
+              <a href="#" class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">About</span>
               </a>
             </li>
             <li>
-              <a href="#">
-                <span>Contact</span>
+              <a href="#" class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
+                  <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z" />
+                </svg>
+                <span class="ml-2">Contact</span>
               </a>
             </li>
           </ul>
@@ -72,8 +82,11 @@
                 <span class="font-bold">Fruits</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
-              <div class="badge">
-                <span class="">15 mins</span>
+              <div class="badge flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">15 mins</span>
               </div>
             </div>
             <div class="card">
@@ -86,8 +99,11 @@
                 <span class="font-bold">Rice </span>
                 <span class="block text-gray-500 text-sm">Recipe by Julia</span>
               </div>
-              <div class="badge">
-                <span class="">30 mins</span>
+              <div class="badge flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">30 mins</span>
               </div>
             </div>
             <div class="card">
@@ -102,8 +118,11 @@
                   >Recipe by Collin</span
                 >
               </div>
-              <div class="badge">
-                <span class="">40 mins</span>
+              <div class="badge flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">40 mins</span>
               </div>
             </div>
           </div>
@@ -111,8 +130,65 @@
             Most Popular
           </h4>
 
-          <div class="mt-8">
+          <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!--cards go here-->
+            <div class="card">
+              <img
+                class="h-64 sm:h-48 object-cover w-full"
+                src="img/egg.jpg"
+                alt=""
+              />
+              <div class="m-4">
+                <span class="font-bold">Boiled egg</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Francis</span
+                >
+              </div>
+              <div class="badge flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">45 mins</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="h-64 sm:h-48 object-cover w-full"
+                src="img/salmon.jpg"
+                alt=""
+              />
+              <div class="m-4">
+                <span class="font-bold">Salmon</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Karina</span
+                >
+              </div>
+              <div class="badge flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">1:20 mins</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="h-64 sm:h-48 object-cover w-full"
+                src="img/ice-cream.jpg"
+                alt=""
+              />
+              <div class="m-4">
+                <span class="font-bold">Strawberry icecream</span>
+                <span class="block text-gray-500 text-sm"
+                  >Recipe by Lindsey</span
+                >
+              </div>
+              <div class="badge flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-2">30 mins</span>
+              </div>
+            </div>
           </div>
 
           <div class="flex justify-center cursor-pointer">

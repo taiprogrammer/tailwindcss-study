@@ -32386,6 +32386,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (min-width: 768px){
+  .card{
+    width: auto;
+  }
+}
+
 .badge {
   --tw-bg-opacity: 1;
   background-color: rgba(226, 226, 213, var(--tw-bg-opacity));
